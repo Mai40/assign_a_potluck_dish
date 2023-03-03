@@ -1,0 +1,32 @@
+/* Refactoring is the process of restructuring code, while not changing its original functionality. The goal of refactoring is to improve internal code by making many small changes without altering the code's external behavior.
+
+https://www.techtarget.com/searchapparchitecture/definition/refactoring
+*/ /* Refactoring is the process of restructuring code, while not changing its original functionality. The goal of refactoring is to improve internal code by making many small changes without altering the code's external behavior.
+
+https://www.techtarget.com/searchapparchitecture/definition/refactoring
+*/
+
+/* Question 4 - I don't understand
+Below the randomPotluckIndex variable, declare a variable called randomPotluckItem. In the value, add the item from the potluckItems array at the index position of randomPotluckIndex.
+*/
+
+/*  const allGuests = document.querySelectorAll(".guest-list li");
+
+  for (let guest of allGuests) {
+    let randomPotluckIndex = Math.floor(Math.random() * potluckItems.length);
+
+    let = randomPotluckItem = potluckItems[randomPotluckIndex];
+
+    let listItem = document.createElement("li");
+    listItem.innerText = `${guest.innerText} is bringing ${randomPotluckItem}.`;
+    assignItems.append(listItem);
+  }
+}; 
+
+assignButton.addEventListener("click", function () {
+  assignItems();
+});
+ */
+/* Math.floor() rounds numbers down
+  Math.random() returns number between 0 - 1
+*/
